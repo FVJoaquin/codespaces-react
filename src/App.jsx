@@ -1,27 +1,30 @@
 import './App.css';
+import Header from "./Header";
+import MenuBar from './MenuBar';
+import Accordion from './Acordeon';
+import Footer from './Footer';
+import './estilos.css'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+    <div className="cuerpoTotal">
+      <div className="titulo">
+        <Header />
+      </div>
+
+      <div className="bar">
+        <MenuBar />
+      </div>
+
+      <main className="cuerpo">
+        <Acordeon />
+      </main>
+
+      <div className='piedepag'>
+        <Footer />
+      </div>
+
     </div>
   );
 }

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cuerpoTotal {
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    top: 0px;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+.titulo {
+    background-color: greenyellow;
+    width: 100%;
+}
+.tituloprin h1 {
+    font-size: 35px;
+}
+.tituloprin h2 {
+    font-size: 30px;
+    color: #000;
+}
+.pagina {
+    height: 100vh;
+}
+.bar {
+    padding-top: 8px;
+    height: 50px;
+    background-color: aqua;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    font-size: 25px;
+}
+.cuerpo {
+    height: 200px;
+    background-color: yellow;
+}
+
+.piedepag {
+    background-color: rebeccapurple;
+    height: 100px;
+    bottom: 0px;
+}
